@@ -30,7 +30,5 @@ public class Pet {
 	        this.status = status;
 	        this.category = category;
 	    }
-
-
 }
 

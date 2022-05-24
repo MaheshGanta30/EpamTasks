@@ -33,6 +33,4 @@ public class Weather {
 	        float temparature = path.get("main.temp");
 	        Assert.assertEquals(temparature>0,true);
 	    }
-
-
 }
