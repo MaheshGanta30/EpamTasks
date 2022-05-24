@@ -46,17 +46,17 @@ public class CollectionsTask {
         }
         System.out.println("         LinkedList         ");
         LinkedList<String> linkedList = new LinkedList<String>();
-        linkedList.add("Ravi");
-        linkedList.add("Vijay");
+        linkedList.add("Raju");
+        linkedList.add("shekhar");
         linkedList.add("Ajay");
         Iterator<String> i = linkedList.iterator();
         while (i.hasNext()) {
             System.out.println(i.next());
         }
         System.out.println("Removed Ravi");
-        linkedList.remove("Ravi");
+        linkedList.remove("Raju");
         System.out.println("Added Vikas at 0 index");
-        linkedList.add(0, "vikas");
+        linkedList.add(0, "shekhar");
         System.out.println("Iterating with ListIterator from reverse");
         ListIterator<String> listIterator = linkedList.listIterator(linkedList.size());
         while (listIterator.hasPrevious()) {
@@ -65,12 +65,12 @@ public class CollectionsTask {
         System.out.println("********* HashMap || TreeMap || LinkedHashMap **********");
         HashMap<Integer, String> hashmap = new HashMap<Integer, String>();
         // Adding Key and Value pairs to HashMap
-        hashmap.put(22, "A");
-        hashmap.put(55, "B");
-        hashmap.put(33, "Z");
-        hashmap.put(44, "M");
-        hashmap.put(99, "I");
-        hashmap.put(88, "X");
+        hashmap.put(22, "M");
+        hashmap.put(55, "A");
+        hashmap.put(33, "H");
+        hashmap.put(44, "E");
+        hashmap.put(99, "S");
+        hashmap.put(88, "H");
         System.out.println("Iterating through Iterator");
         Set<Entry<Integer, String>> set = hashmap.entrySet();
         Iterator<Entry<Integer, String>> iterator = set.iterator();
