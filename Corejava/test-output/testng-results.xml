@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T11:23:30 IST" name="Default suite" finished-at="2022-05-24T11:23:34 IST" duration-ms="3644">
+  <suite started-at="2022-05-24T19:01:22 IST" name="Default suite" finished-at="2022-05-24T19:01:25 IST" duration-ms="2759">
     <groups>
     </groups>
-    <test started-at="2022-05-24T11:23:30 IST" name="Default test" finished-at="2022-05-24T11:23:34 IST" duration-ms="3644">
-      <class name="RestAPITask.Pet1$HomeTask1">
-        <test-method signature="put()[pri:0, instance:RestAPITask.Pet1$HomeTask1@62150f9e]" started-at="2022-05-24T11:23:30 IST" name="put" finished-at="2022-05-24T11:23:34 IST" duration-ms="3294" status="PASS">
+    <test started-at="2022-05-24T19:01:22 IST" name="Default test" finished-at="2022-05-24T19:01:25 IST" duration-ms="2759">
+      <class name="RestAPITask.Task3$HomeTask1">
+        <test-method signature="put()[pri:0, instance:RestAPITask.Task3$HomeTask1@62150f9e]" started-at="2022-05-24T19:01:22 IST" name="put" finished-at="2022-05-24T19:01:25 IST" duration-ms="2610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- put -->
-        <test-method signature="get()[pri:1, instance:RestAPITask.Pet1$HomeTask1@62150f9e]" started-at="2022-05-24T11:23:34 IST" name="get" finished-at="2022-05-24T11:23:34 IST" duration-ms="316" status="PASS">
+        <test-method signature="get()[pri:1, instance:RestAPITask.Task3$HomeTask1@62150f9e]" started-at="2022-05-24T19:01:25 IST" name="get" finished-at="2022-05-24T19:01:25 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
-      </class> <!-- RestAPITask.Pet1$HomeTask1 -->
+      </class> <!-- RestAPITask.Task3$HomeTask1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
