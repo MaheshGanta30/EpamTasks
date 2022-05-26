@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAPITask.Pet1$HomeTask1">
+      <class name="DP_FactoryDesignPattern.FactoryPatternTest">
         <methods>
-          <include name="get"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- RestAPITask.Pet1$HomeTask1 -->
+      </class> <!-- DP_FactoryDesignPattern.FactoryPatternTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
